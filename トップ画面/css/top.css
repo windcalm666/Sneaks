@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    background-color: white;
+}
+
+.top {
+    width: 60%;
+    margin: 30px auto;
+}
+
+.new-arrival {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.first {
+    width: 1050px;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.second {
+    width: 1050px;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.one {
+    width: 300px;
+}
+
+.two {
+    width: 300px;
+}
+
+.three {
+    width: 300px;
+}
+
+.four {
+    width: 300px;
+}
+
+.five {
+    width: 300px;
+}
+
+.six {
+    width: 300px;
+}
+
+.aaa {
+    width: 300px;
+    height: 200px;
+}
+
+.ranking {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+ul.r_scroll {
+    overflow-x: scroll;
+    width: 1000px;
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    padding-inline-start: 0;
+}
+
+li {
+    width: 200px;
+    margin: 0 10px;
+}
+
+li img {
+    width: 20%;
+    float: left;
+}
+
+.bbb {
+    width: 100%;
+}
