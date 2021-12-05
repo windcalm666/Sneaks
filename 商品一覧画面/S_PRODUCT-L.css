@@ -1,0 +1,92 @@
+.top {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top h1 {
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.top select {
+    height: 25px;
+    margin: auto 200px auto 0;
+}
+
+.main {
+    text-align: center;
+}
+
+.first {
+    width: 1050px;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.second {
+    width: 1050px;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.third {
+    width: 1050px;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.one {
+    width: 300px;
+}
+
+.two {
+    width: 300px;
+}
+
+.three {
+    width: 300px;
+}
+
+.four {
+    width: 300px;
+}
+
+.five {
+    width: 300px;
+}
+
+.seven {
+    width: 300px;
+}
+
+.eight {
+    width: 300px;
+}
+
+.nine {
+    width: 300px;
+}
+
+.aaa {
+    width: 300px;
+    height: 200px;
+}
+
+.bottom {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom p {
+    margin: 0 30px;
+}
