@@ -17,7 +17,7 @@
 <body>
   <!-- ここからヘッダー -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container col-10">
         <a class="navbar-brand ml-auto" href="#">Sneaks</a>
       </div>
@@ -102,7 +102,7 @@
             <option value="2005">2005</option>
           </select>
           年
-          <SELECT name="month">
+          <select name="month">
             <option value="">--</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -116,9 +116,9 @@
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
-          </SELECT>
+          </select>
           月
-          <SELECT name="day">
+          <select name="day">
             <option value="">--</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -186,24 +186,25 @@
       </div>
 
       <div class="text-center mt-3 mb-5">
+        <!-- ボタン押下時、DBへ反映マイページ（完了）画面へ遷移 -->
         <button type="submit" class="btn btn-dark btn-md btn-block">
           変更
         </button>
 
         <div class="container col-2">
           <div class="text-right mt-3 mb-5">
+            <!-- ボタン押下時、退会（手続）画面へ遷移 -->
             <button type="submit" class="btn btn-secondary btn-md btn-block">
               退会はこちら
             </button>
           </div>
         </div>
-
-
+      </div>
     </form>
   </div>
 
   <!-- ここからフッター -->
-  <footer class="fixed-bottom">
+  <footer>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="col-10"></div>
       <div class="container col-2">
