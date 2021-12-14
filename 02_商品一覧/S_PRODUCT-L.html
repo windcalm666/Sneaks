@@ -18,7 +18,7 @@
 <body>
     <!-- ここからヘッダー -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
             <div class="container col-10 mr-auto">
                 <!-- TOPページのリンクを貼る -->
                 <a class="navbar-brand ml-auto" href="#">Sneaks</a>
@@ -50,9 +50,12 @@
         </nav>
     </header>
     <!-- ここまでヘッダー -->
-    <div class="top mt-3">
+
+    <div class="top">
+        <!-- 商品数を表示 -->
         <h1>全○○件</h1>
         <select name="brand_name">
+            <!-- 絞り込み結果を表示 -->
             <option hidden>絞り込み</option>
             <option value="adidas">adidas</option>
             <option value="vans">vans</option>
@@ -63,16 +66,19 @@
     <div class="main">
         <div class="first">
             <div class="one">
+                <!-- 画像仮なのでDBから取り出す、画像・商品名・価格押下時に洗濯した商品の商品詳細に遷移 -->
                 <a href="###"><img class="aaa" src="vans_authentic_black.jpg" title="###"></a><br>
                 <a href="###">vans_authentic_black<br>¥10000</a>
                 <p></p>
             </div>
             <div class="two">
+                <!-- 画像仮なのでDBから取り出す、画像・商品名・価格押下時に洗濯した商品の商品詳細に遷移 -->
                 <a href="###"><img class="aaa" src="vans_authentic_black.jpg" title="###"></a><br>
                 <a href="###">vans_authentic_black<br>¥10000</a>
                 <p></p>
             </div>
             <div class="three">
+                <!-- 画像仮なのでDBから取り出す、画像・商品名・価格押下時に洗濯した商品の商品詳細に遷移 -->
                 <a href="###"><img class="aaa" src="vans_authentic_black.jpg" title="###"></a><br>
                 <a href="###">vans_authentic_black<br>¥10000</a>
                 <p></p>
@@ -80,16 +86,19 @@
         </div>
         <div class="second">
             <div class="four">
+                <!-- 画像仮なのでDBから取り出す、画像・商品名・価格押下時に洗濯した商品の商品詳細に遷移 -->
                 <a href="###"><img class="aaa" src="vans_authentic_black.jpg" title="###"></a><br>
                 <a href="###">vans_authentic_black<br>¥10000</a>
                 <p></p>
             </div>
             <div class="five">
+                <!-- 画像仮なのでDBから取り出す、画像・商品名・価格押下時に洗濯した商品の商品詳細に遷移 -->
                 <a href="###"><img class="aaa" src="vans_authentic_black.jpg" title="###"></a><br>
                 <a href="###">vans_authentic_black<br>¥10000</a>
                 <p></p>
             </div>
             <div class="six">
+                <!-- 画像仮なのでDBから取り出す、画像・商品名・価格押下時に洗濯した商品の商品詳細に遷移 -->
                 <a href="###"><img class="aaa" src="vans_authentic_black.jpg" title="###"></a><br>
                 <a href="###">vans_authentic_black<br>¥10000</a>
                 <p></p>
@@ -97,16 +106,19 @@
         </div>
         <div class="third">
             <div class="seven">
+                <!-- 画像仮なのでDBから取り出す、画像・商品名・価格押下時に洗濯した商品の商品詳細に遷移 -->
                 <a href="###"><img class="aaa" src="vans_authentic_black.jpg" title="###"></a><br>
                 <a href="###">vans_authentic_black<br>¥10000</a>
                 <p></p>
             </div>
             <div class="eight">
+                <!-- 画像仮なのでDBから取り出す、画像・商品名・価格押下時に洗濯した商品の商品詳細に遷移 -->
                 <a href="###"><img class="aaa" src="vans_authentic_black.jpg" title="###"></a><br>
                 <a href="###">vans_authentic_black<br>¥10000</a>
                 <p></p>
             </div>
             <div class="nine">
+                <!-- 画像仮なのでDBから取り出す、画像・商品名・価格押下時に洗濯した商品の商品詳細に遷移 -->
                 <a href="###"><img class="aaa" src="vans_authentic_black.jpg" title="###"></a><br>
                 <a href="###">vans_authentic_black<br>¥10000</a>
                 <p></p>
@@ -114,12 +126,13 @@
         </div>
     </div>
     <div class="bottom mb-3">
+        <!-- 矢印押下時、次画面へ遷移 -->
         <a href="###"> ← </a>
         <p>1</p>
         <a href="###"> → </a>
     </div>
     <!-- ここからフッター -->
-    <footer class="fixed-bottom">
+    <footer>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="col-10">
             </div>
