@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- Mapperとxmlのマッピング -->
+<mapper namespace="com.example.repository.UserMapper">
+	
+	<!-- ユーザー一件登録 -->
+	<insert id="insertOne">
+		insert into m_user(
+			id,
+			name,
+			password,
+			birthday,
+			sex,
+			phone_number,
+			post_code,
+			address
+		)
+		values(
+			#{id},
+			#{userName},
+			#{password},
+			#{birthday},
+			#{sex},
+			#{phoneNumber},
+			#{postCode},
+			#{address}
+		)
+	</insert>
+</mapper>
